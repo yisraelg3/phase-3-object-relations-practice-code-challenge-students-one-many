@@ -1,5 +1,7 @@
 # Object Relations Practice Code Challenge - Students
 
+## Introduction
+
 For this assignment, we'll be working with a Students domain.
 
 We have two models: `Cohort` and `Student`.
@@ -37,17 +39,44 @@ Similarly, messy code that works is better than clean code that doesn't. First, 
 The starter code has migrations and models for the initial `Cohort` and `Student` models, and seed data for some `Cohort`s and `Student`s. The tables currently look like this: 
 
 #### `students` Table
-| Column      | Type      |
-| ------------| ----------|
-| name        | String    |
-| age         | Integer   |
-| email       | String    |
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <th>Column</th>
+    <th>Type</th>
+  </tr>
+  
+  <tr>
+    <td>name</td>
+    <td>string</td>
+  </tr>
+  <tr>
+    <td>age</td>
+    <td>integer</td>
+  </tr>
+  <tr>
+    <td>email</td>
+    <td>string</td>
+  </tr>
+</table>
 
 #### `cohorts` Table
-| Column            | Type      |
-| ------------------| --------- |
-| name              | String    |
-| current_mod       | Integer   |
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <th>Column</th>
+    <th>Type</th>
+  </tr>
+  
+  <tr>
+    <td>name</td>
+    <td>string</td>
+  </tr>
+  <tr>
+    <td>current_mod</td>
+    <td>integer</td>
+  </tr>
+</table>
 
 You will need to create a migration to establish the relationship between these two tables. You'll need to add one additional column to one of these existing tables to create the relationship. 
 
